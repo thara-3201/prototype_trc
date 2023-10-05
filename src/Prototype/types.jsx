@@ -1,0 +1,5 @@
+export const ALLOWED_TYPES = [
+    'DRAGGABLE_SELECT', 
+    'DRAGGABLE_ENTITY_2', 
+    'DRAGGABLE_ENTITY_3',
+];

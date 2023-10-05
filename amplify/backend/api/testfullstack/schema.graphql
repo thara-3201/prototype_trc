@@ -1,0 +1,17 @@
+type Updatepwd @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  oldpassword: String!
+  newpassword: String!
+}
+
+type Entity2 @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  newpassword: String!
+  retypepassword: String!
+}
+
+type Login @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  username: String!
+  password: String!
+} 
